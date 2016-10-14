@@ -8,7 +8,7 @@
 
 - 通过斐波拉契数列尽可能精确计算黄金分割比例
   $$
-  golden ratio = lim  𝐹𝑖𝑏𝑜𝑛𝑎𝑐𝑐𝑖[𝑖]/𝐹𝑖𝑏𝑜𝑛𝑎𝑐𝑐𝑖[𝑖+1]
+  golden ratio = \lim_{n\to\infty}\{Fibonacci[i]/Fibonacci[i+1]\}
   $$
 
 - 打印输出斐波拉契数列的项数，以及对应的黄金分割值的准确位数

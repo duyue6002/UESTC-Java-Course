@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created by duyue on 2016/10/15.
  */
 
@@ -50,7 +50,7 @@ public class MyTime {
             System.out.println("illegal!Please enter again!");
         } else {
             second -= sec;
-            if (second <= 60) {
+            if (second < 0) {
                 second += 60;
                 subMinute(1);
             }
@@ -62,7 +62,7 @@ public class MyTime {
             System.out.println("illegal!Please enter again!");
         } else {
             minute -= min;
-            if (minute <= 60) {
+            if (minute < 0) {
                 minute += 60;
                 subHour(1);
             }
@@ -74,7 +74,7 @@ public class MyTime {
             System.out.println("illegal!Please enter again!");
         } else {
             hour -= hou;
-            if (hour <= 24) {
+            if (hour < 0) {
                 hour += 24;
             }
         }
@@ -111,6 +111,9 @@ public class MyTime {
                     break;
             }
         } while (method != 0);
+
+        time.display();
+        System.out.println();
 
         do {
             System.out.println("对时间做减法，输入：1，秒钟；2，分钟；3，小时；0，不做减法");

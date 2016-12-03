@@ -1,5 +1,5 @@
 /**
- * Created by duyue on 2016/10/17.
+ * 包含一个父类和它的三个子类，子类对父类有不同的继承，形成多态
  */
 
 class Rodent {
@@ -41,6 +41,9 @@ class Rodent {
 
 }
 
+/**
+ * 子类一
+ */
 class Mouse extends Rodent {
 
     Mouse(String name, int length, int weight, int lifetime) {
@@ -56,6 +59,10 @@ class Mouse extends Rodent {
     }
 }
 
+/**
+ * 子类二
+ */
+
 class Gerbil extends Rodent {
 
     Gerbil(String name, int length, int weight, int lifetime) {
@@ -70,6 +77,10 @@ class Gerbil extends Rodent {
         System.out.println("The enemy of gerbil is rattlesnake.");
     }
 }
+
+/**
+ * 子类三
+ */
 
 class Hamster extends Rodent {
 

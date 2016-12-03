@@ -1,5 +1,5 @@
 /**
- * Created by duyue on 2016/10/17.
+ * 父类
  */
 
 class Person {

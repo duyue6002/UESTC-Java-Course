@@ -1,5 +1,5 @@
 /**
- * Created by duyue on 2016/10/17.
+ * 包含一个抽象类和它的两个子类
  */
 
 abstract class Vehicle {

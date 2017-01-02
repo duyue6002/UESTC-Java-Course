@@ -1,4 +1,4 @@
-package myException;
+package Yue.Exception;
 
 public class TryTest {
     public TryTest() {

@@ -1,4 +1,4 @@
-package myException;
+package Yue.Exception;
 
 import java.util.Scanner;
 
@@ -17,10 +17,10 @@ class MyException extends Throwable {
 public class CreateException {
     public void myThrow(int number) throws MyException {
         if (number > 100) {
-            throw new MyException("����̫��Ӧ��[0,100]֮�䣡");
+            throw new MyException("数字大于100，不符合要求！");
         }
         if (number < 0) {
-            throw new MyException("����̫С��Ӧ��[0,100]֮�䣡");
+            throw new MyException("数字是负数，不符合要求！");
         }
     }
 
